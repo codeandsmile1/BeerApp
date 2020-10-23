@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Beer from "./Beer";
 import "../styles/Home.css";
+import { FaAngellist } from "react-icons/fa";
 
 class Home extends Component {
   constructor(props) {
@@ -66,7 +67,7 @@ class Home extends Component {
             <Beer {...p} index={index} key={p.id} />
           ))}       
         </div>
-        <h1 className="message">There is no this kind of beer!:)</h1>
+        <h1 className="message"><FaAngellist/>There is no such beer!<FaAngellist/></h1>
       </div>
     );
   }

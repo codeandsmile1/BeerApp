@@ -20,7 +20,7 @@ class Favourite extends Component {
          <h1  className="title">Favourite Beers</h1>
       <div className="favourite-beers">
         {this.state.favouriteBeers.map((p) => (
-          <Beer {...p} />
+          <Beer {...p} key={p.id}/>
         ))}
       </div>
       </div>
