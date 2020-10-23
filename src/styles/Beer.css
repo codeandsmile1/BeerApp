@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.img-beer {
+  width: 30px;
+  height: 80px;
+  cursor: pointer;
+  margin-right: 90px;
+  margin-top: 30px;
+}
+
+.title-beer {
+  font-family: sans-serif;
+  font-weight: bold;
+  width: 165px;
+}
+
+.description {
+  /* white-space: nowrap; */
+  font-family: sans-serif;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  width: 180px;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  /* width: 295px; */
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.beer {
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+}
+
+#favourite {
+  color: #4ab0b0;
+  text-align: right;
+}

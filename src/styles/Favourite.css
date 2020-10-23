@@ -1,0 +1,13 @@
+.favourite-beers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title {
+    color: #4ab0b0;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;   
+}
